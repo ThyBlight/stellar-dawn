@@ -1,6 +1,6 @@
 # The Quiet Ones WordPress Paste Kit
 
-This version keeps **Stellar Dawn** as the larger Nexus/interface format, while **The Quiet Ones** reads as a melancholy field record that can eventually live inside that hub.
+This version keeps **The Quiet Ones** as a spoiler-safe player-facing page that can eventually live inside the larger campaign hub.
 
 ## 1. Upload The Background
 
@@ -10,26 +10,30 @@ Upload `assets/quiet-ones-earth.png` to the WordPress Media Library and copy the
 
 Paste this into a Custom HTML block on `https://danaskew.org/the-quiet-ones/`.
 
+The navigation uses absolute WordPress slugs so the Rules button routes to the dedicated Quiet Ones reference page.
+
 ```html
 <main class="quiet-ones">
   <section class="quiet-hero">
     <div class="quiet-hero__content">
-      <p class="quiet-kicker">Field record / incomplete</p>
+      <p class="quiet-kicker">A Quiet Year game</p>
       <h1>The Quiet Ones</h1>
-      <p class="quiet-lead">Some places do not end when they are abandoned. They settle into the soil, into the weather, into the names people stop saying out loud.</p>
+      <p class="quiet-lead">A feeling rung out across the world.</p>
       <div class="quiet-actions" aria-label="Quiet Ones sections">
-        <a href="#briefing">The Place</a>
-        <a href="#records">Records</a>
-        <a href="#transmissions">Last Note</a>
+        <a href="#briefing">Begin Here</a>
+        <a href="/the-quiet-ones-rules/">Rules</a>
+        <a href="/the-quiet-ones-player-guide/">Player Guide</a>
+        <a href="/the-quiet-ones-turns/">Turns</a>
+        <a href="#blank-map">The Map</a>
       </div>
     </div>
     <aside class="quiet-dossier" aria-label="Archive status">
       <span>Season</span>
-      <strong>After the rain</strong>
-      <span>Record state</span>
-      <strong>Partial</strong>
-      <span>Local advice</span>
-      <strong>Do not linger</strong>
+        <strong>Map-making</strong>
+        <span>Prep</span>
+        <strong>None required</strong>
+        <span>Tone</span>
+        <strong>Solemn hope</strong>
     </aside>
   </section>
 

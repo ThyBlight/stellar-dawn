@@ -5,7 +5,7 @@ Static site prototype for the Stellar Dawn campaign hub.
 ## Pages
 
 - `index.html` - Stellar Dawn Nexus home
-- `quiet-ones.html` - The Quiet Ones Quiet Year field record
+- `quiet-ones.html` - The Quiet Ones Quiet Year overview
 - `quiet-ones-rules.html` - The Quiet Ones rules and house reference
 - `quiet-ones-players.html` - Player-facing guide to role, tone, and expectations
 - `quiet-ones-turns.html` - Player-facing turn and action reference
