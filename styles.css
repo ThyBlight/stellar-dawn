@@ -510,6 +510,10 @@ tr:last-child td {
   padding: clamp(76px, 12vw, 142px) 0 58px;
 }
 
+.quiet-hero--compact {
+  min-height: 62vh;
+}
+
 .quiet-hero__content {
   max-width: 760px;
 }

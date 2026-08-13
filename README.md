@@ -6,6 +6,7 @@ Static site prototype for the Stellar Dawn campaign hub.
 
 - `index.html` - Stellar Dawn Nexus home
 - `quiet-ones.html` - The Quiet Ones Quiet Year field record
+- `rules.html` - The Quiet Ones rules and house reference
 - `ships.html` - Fleet registry starter
 - `shipbuilding.html` - Shipbuilding workflow starter
 - `gear.html` - Gear catalog starter
