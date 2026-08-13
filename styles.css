@@ -263,6 +263,10 @@ p {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.grid.five {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .grid.three {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -297,6 +301,11 @@ p {
 .card p,
 .muted {
   color: var(--muted);
+}
+
+.feature-card {
+  border-color: rgba(231, 191, 99, 0.34);
+  background: linear-gradient(180deg, rgba(51, 39, 25, 0.84), rgba(18, 28, 32, 0.84));
 }
 
 .metric {
@@ -420,6 +429,7 @@ tr:last-child td {
   }
 
   .grid.four,
+  .grid.five,
   .grid.three,
   .grid.two {
     grid-template-columns: 1fr;
