@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gear | Stellar Dawn</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="site-shell nav" aria-label="Main navigation">
+        <a class="brand" href="index.html"><strong>Stellar Dawn</strong><span>Campaign Codex</span></a>
+        <div class="nav-links">
+          <a href="ships.html">Ships</a>
+          <a href="shipbuilding.html">Shipbuilding</a>
+          <a href="gear.html" aria-current="page">Gear</a>
+          <a href="encounters.html">Encounters</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="site-shell page-hero">
+        <p class="eyebrow">Campaign economy</p>
+        <h1>Gear</h1>
+        <p class="lead">A searchable starter table for equipment costs, weights, and notes. The first rows come from the existing economy CSV.</p>
+      </section>
+      <section class="content-band">
+        <div class="site-shell section">
+          <label class="filter">
+            <span class="tag">Search</span>
+            <input data-gear-search type="search" placeholder="Filter gear by name or note" aria-label="Filter gear table">
+          </label>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Gear</th><th>Cost</th><th>Weight</th><th>Notes</th></tr>
+              </thead>
+              <tbody>
+                <tr data-gear-row><td>Anvil</td><td>7,500 cp</td><td>100 lb</td><td></td></tr>
+                <tr data-gear-row><td>Backpack</td><td>200 cp</td><td>1.5 lb</td><td></td></tr>
+                <tr data-gear-row><td>Leather belt pouch</td><td>40 cp</td><td>0.3 lb</td><td></td></tr>
+                <tr data-gear-row><td>Small keg</td><td>100 cp</td><td>8 lb</td><td>6 gallons</td></tr>
+                <tr data-gear-row><td>Bedroll</td><td>150 cp</td><td>5 lb</td><td></td></tr>
+                <tr data-gear-row><td>Blanket, winter</td><td>200 cp</td><td>5 lb</td><td></td></tr>
+                <tr data-gear-row><td>Blank book, 50 pages</td><td>3,000 cp</td><td>2 lb</td><td>100 cp per page, plus binding.</td></tr>
+                <tr data-gear-row><td>Spellbook, 50 pages</td><td>12,000 cp</td><td>3 lb</td><td>Protected against the elements.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-shell footer"><p>Suggested WordPress slug: /gear</p></footer>
+  </body>
+</html>
