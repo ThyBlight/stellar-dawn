@@ -303,6 +303,15 @@ p {
   color: var(--muted);
 }
 
+.card.empty-state {
+  border-style: dashed;
+}
+
+.card .button {
+  align-self: end;
+  width: fit-content;
+}
+
 .feature-card {
   border-color: rgba(231, 191, 99, 0.34);
   background: linear-gradient(180deg, rgba(51, 39, 25, 0.84), rgba(18, 28, 32, 0.84));
@@ -409,6 +418,28 @@ tr:last-child td {
   padding: 12px 16px;
 }
 
+.timeline {
+  display: grid;
+  gap: 14px;
+}
+
+.timeline article {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  background: var(--panel);
+}
+
+.timeline span {
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+}
+
 .footer {
   border-top: 1px solid var(--line);
   color: var(--faint);
@@ -431,7 +462,8 @@ tr:last-child td {
   .grid.four,
   .grid.five,
   .grid.three,
-  .grid.two {
+  .grid.two,
+  .timeline article {
     grid-template-columns: 1fr;
   }
 
