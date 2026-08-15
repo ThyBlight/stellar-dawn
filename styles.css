@@ -277,6 +277,8 @@ p {
 
 .card {
   display: grid;
+  align-content: start;
+  align-items: start;
   gap: 12px;
   min-height: 100%;
   border: 1px solid var(--line);
@@ -287,6 +289,7 @@ p {
 
 .card .tag,
 .tag {
+  align-self: start;
   width: fit-content;
   border: 1px solid rgba(84, 198, 189, 0.42);
   border-radius: 999px;
@@ -308,7 +311,7 @@ p {
 }
 
 .card .button {
-  align-self: end;
+  align-self: start;
   width: fit-content;
 }
 
