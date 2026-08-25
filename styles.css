@@ -315,6 +315,37 @@ p {
   width: fit-content;
 }
 
+.rule-block {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.rule-block p {
+  max-width: 900px;
+  color: var(--muted);
+}
+
+pre {
+  overflow-x: auto;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(0, 0, 0, 0.24);
+}
+
+code {
+  color: #f4efe4;
+  font-family: Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 .feature-card {
   border-color: rgba(231, 191, 99, 0.34);
   background: linear-gradient(180deg, rgba(51, 39, 25, 0.84), rgba(18, 28, 32, 0.84));
