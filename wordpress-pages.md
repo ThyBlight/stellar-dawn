@@ -14,6 +14,8 @@ Create these WordPress pages first:
 - Skill Equivalents: use `skill-equivalents.html` with the slug `/skill-equivalents/`.
 - Tool Equivalents: use `tool-equivalents.html` with the slug `/tool-equivalents/`.
 - Vehicles and Drones: use `vehicle-drone-rules.html` with the slug `/vehicles-and-drones/`.
+- Equipment Flavor: use `equipment-flavor.html` with the slug `/equipment-flavor/`.
+- Resting and Travel: use `resting-travel.html` with the slug `/resting-and-travel/`.
 - Ships: use `ships.html` for the fleet registry page.
 - Ship Rules: use `ship-rules.html` with the slug `/ship-rules/`.
 - Shipbuilding: use `shipbuilding.html` for the guided creation worksheet if needed.
@@ -32,9 +34,11 @@ Suggested menu order:
 9. Skill Equivalents
 10. Tool Equivalents
 11. Vehicles and Drones
-12. Ships
-13. Ship Rules
-14. Gear
+12. Equipment Flavor
+13. Resting and Travel
+14. Ships
+15. Ship Rules
+16. Gear
 
 Keep Shipbuilding linked from Ships and Ship Rules as a worksheet instead of placing it in the main menu unless the crew actively uses the site to revise vessels.
 

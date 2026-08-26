@@ -16,6 +16,8 @@ Static site prototype for the Stellar Dawn campaign hub.
 - `skill-equivalents.html` - Player-facing guide for 5e skill equivalents
 - `tool-equivalents.html` - Player-facing guide for 5e tool, hacking, repair, document, medicine, crafting, and code equivalents
 - `vehicle-drone-rules.html` - Player-facing guide for vehicle proficiencies, drones, navigation, cartography, and sensors
+- `equipment-flavor.html` - Player-facing guide for reflavoring armor, shields, weapons, gear, damage descriptions, and money
+- `resting-travel.html` - Player-facing guide for shipboard rests, active duty, travel downtime, and exhaustion
 - `ships.html` - Stellar Dawn ship information hub
 - `ship-rules.html` - Player-facing ship combat, targeting, Crosshairs, Gambits, and system damage rules
 - `shipbuilding.html` - Shipbuilding worksheet
@@ -24,3 +26,7 @@ Static site prototype for the Stellar Dawn campaign hub.
 ## Publishing
 
 This folder is designed to publish directly with GitHub Pages.
+
+## Working Notes
+
+- `quiet-ones-dependent-rules-backlog.md` - Private planning list for rules that should wait until The Quiet Ones establishes the campaign's magic, cosmology, and death assumptions.
