@@ -11,10 +11,7 @@ Create these WordPress pages first:
 - Character Rules: use `character-rules.html` with the slug `/character-rules/`.
 - Story: use `story.html` with the slug `/story/`.
 - Homebrew Rules: use `rules.html` for the broad rules landing page.
-- Skill Equivalents: use `skill-equivalents.html` with the slug `/skill-equivalents/`.
-- Tool Equivalents: use `tool-equivalents.html` with the slug `/tool-equivalents/`.
-- Vehicles and Drones: use `vehicle-drone-rules.html` with the slug `/vehicles-and-drones/`.
-- Equipment Flavor: use `equipment-flavor.html` with the slug `/equipment-flavor/`.
+- Flavor Guide: use `flavor-guide.html` with the slug `/flavor-guide/`.
 - Resting and Travel: use `resting-travel.html` with the slug `/resting-and-travel/`.
 - Ships: use `ships.html` for the fleet registry page.
 - Ship Rules: use `ship-rules.html` with the slug `/ship-rules/`.
@@ -25,13 +22,11 @@ Suggested public menu order:
 
 1. Home
 2. The Quiet Ones
-3. The Quiet Ones Rules
-4. The Quiet Ones Turns
-5. Characters
-6. Story
-7. Homebrew Rules
-8. Ships
-9. Gear
+3. Characters
+4. Story
+5. Homebrew Rules
+6. Ships
+7. Gear
 
 Keep detailed rules linked from Homebrew Rules instead of placing every rules page in the public menu. Keep Shipbuilding linked from Ships and Ship Rules as a worksheet unless the crew actively uses the site to revise vessels.
 

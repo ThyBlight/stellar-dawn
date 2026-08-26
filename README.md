@@ -13,10 +13,7 @@ Static site prototype for the Stellar Dawn campaign hub.
 - `character-rules.html` - Player-facing Stellar Dawn character creation, flavor, class, and skill guidance
 - `story.html` - Stellar Dawn story so far, lore, factions, and mysteries
 - `rules.html` - Stellar Dawn homebrew rules landing page
-- `skill-equivalents.html` - Player-facing guide for 5e skill equivalents
-- `tool-equivalents.html` - Player-facing guide for 5e tool, hacking, repair, document, medicine, crafting, and code equivalents
-- `vehicle-drone-rules.html` - Player-facing guide for vehicle proficiencies, drones, navigation, cartography, and sensors
-- `equipment-flavor.html` - Player-facing guide for reflavoring armor, shields, weapons, gear, damage descriptions, and money
+- `flavor-guide.html` - Player-facing guide for reflavoring skills, tools, vehicles, drones, equipment, damage, and money
 - `resting-travel.html` - Player-facing guide for shipboard rests, active duty, travel downtime, and exhaustion
 - `ships.html` - Stellar Dawn ship information hub
 - `ship-rules.html` - Player-facing ship combat, targeting, Crosshairs, Gambits, and system damage rules
@@ -30,3 +27,4 @@ This folder is designed to publish directly with GitHub Pages.
 ## Working Notes
 
 - `quiet-ones-dependent-rules-backlog.md` - Private planning list for rules that should wait until The Quiet Ones establishes the campaign's magic, cosmology, and death assumptions.
+- `website-change-docket.md` - Private planning list for proposed website additions, target pages, draft text, and unresolved rules questions.
