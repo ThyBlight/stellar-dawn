@@ -328,6 +328,25 @@ p {
   width: fit-content;
 }
 
+.species-card--with-token {
+  position: relative;
+  min-height: 260px;
+  padding-right: 142px;
+}
+
+.species-token {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 104px;
+  aspect-ratio: 1;
+  border: 1px solid rgba(231, 191, 99, 0.4);
+  border-radius: 50%;
+  object-fit: cover;
+  background: rgba(244, 239, 228, 0.08);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
+}
+
 .rule-block {
   display: grid;
   gap: 12px;
@@ -512,6 +531,17 @@ tr:last-child td {
   .grid.two,
   .timeline article {
     grid-template-columns: 1fr;
+  }
+
+  .species-card--with-token {
+    min-height: 0;
+    padding-right: 18px;
+  }
+
+  .species-token {
+    position: static;
+    width: 96px;
+    margin-bottom: 2px;
   }
 
   .section-header {
