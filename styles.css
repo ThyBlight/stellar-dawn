@@ -237,6 +237,15 @@ p {
   text-align: right;
 }
 
+.status-row a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.status-row a:hover {
+  color: var(--gold);
+}
+
 .section {
   padding: 58px 0;
 }
@@ -252,6 +261,10 @@ p {
 .section-header p {
   max-width: 520px;
   color: var(--muted);
+}
+
+.section-header--spaced {
+  margin-top: 34px;
 }
 
 .grid {
