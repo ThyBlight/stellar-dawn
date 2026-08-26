@@ -10,6 +10,7 @@ Create these WordPress pages first:
 - Characters: use `characters.html` with the slug `/characters/`.
 - Character Rules: use `character-rules.html` with the slug `/character-rules/`.
 - Story: use `story.html` with the slug `/story/`.
+- Species: use `species.html` with the slug `/species/`.
 - Homebrew Rules: use `rules.html` for the broad rules landing page.
 - Flavor Guide: use `flavor-guide.html` with the slug `/flavor-guide/`.
 - Resting and Travel: use `resting-travel.html` with the slug `/resting-and-travel/`.

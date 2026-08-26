@@ -12,6 +12,7 @@ Static site prototype for the Stellar Dawn campaign hub.
 - `characters.html` - Stellar Dawn character roster and relationship hub
 - `character-rules.html` - Player-facing Stellar Dawn character creation, flavor, class, and skill guidance
 - `story.html` - Stellar Dawn story so far, lore, factions, and mysteries
+- `species.html` - Stellar Dawn species and known peoples
 - `rules.html` - Stellar Dawn homebrew rules landing page
 - `flavor-guide.html` - Player-facing guide for reflavoring skills, tools, vehicles, drones, equipment, damage, and money
 - `resting-travel.html` - Player-facing guide for shipboard rests, active duty, travel downtime, and exhaustion
