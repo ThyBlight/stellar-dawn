@@ -17,7 +17,8 @@ Static site prototype for the Stellar Dawn campaign hub.
 - `tool-equivalents.html` - Player-facing guide for 5e tool, hacking, repair, document, medicine, crafting, and code equivalents
 - `vehicle-drone-rules.html` - Player-facing guide for vehicle proficiencies, drones, navigation, cartography, and sensors
 - `ships.html` - Stellar Dawn ship information hub
-- `shipbuilding.html` - Shipbuilding workflow
+- `ship-rules.html` - Player-facing ship combat, targeting, Crosshairs, Gambits, and system damage rules
+- `shipbuilding.html` - Shipbuilding worksheet
 - `gear.html` - Gear catalog
 
 ## Publishing

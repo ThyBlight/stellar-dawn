@@ -15,7 +15,8 @@ Create these WordPress pages first:
 - Tool Equivalents: use `tool-equivalents.html` with the slug `/tool-equivalents/`.
 - Vehicles and Drones: use `vehicle-drone-rules.html` with the slug `/vehicles-and-drones/`.
 - Ships: use `ships.html` for the fleet registry page.
-- Shipbuilding: use `shipbuilding.html` for the guided creation flow.
+- Ship Rules: use `ship-rules.html` with the slug `/ship-rules/`.
+- Shipbuilding: use `shipbuilding.html` for the guided creation worksheet if needed.
 - Gear: use `gear.html` for the searchable equipment table.
 
 Suggested menu order:
@@ -32,7 +33,9 @@ Suggested menu order:
 10. Tool Equivalents
 11. Vehicles and Drones
 12. Ships
-13. Shipbuilding
+13. Ship Rules
 14. Gear
+
+Keep Shipbuilding linked from Ships and Ship Rules as a worksheet instead of placing it in the main menu unless the crew actively uses the site to revise vessels.
 
 Implementation note: keep the spreadsheets in this folder as the source of truth. Copy completed table sections into WordPress as each data category is cleaned up.

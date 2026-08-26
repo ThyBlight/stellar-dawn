@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ship Rules | Campaign Nexus</title>
+    <meta name="description" content="Player-facing Stellar Dawn ship rules for starship combat, engagements, Crosshairs, Gambits, targeting, and system damage.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="site-shell nav" aria-label="Main navigation">
+        <a class="brand" href="index.html"><strong>Campaign Nexus</strong><span>Ship Rules</span></a>
+        <div class="nav-links">
+          <a href="characters.html">Characters</a>
+          <a href="character-rules.html">Character Rules</a>
+          <a href="story.html">Story</a>
+          <a href="rules.html">Rules</a>
+          <a href="ships.html">Ships</a>
+          <a href="ship-rules.html" aria-current="page">Ship Rules</a>
+          <a href="gear.html">Gear</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="site-shell page-hero">
+        <p class="eyebrow">Ship rules</p>
+        <h1>Ship Rules</h1>
+        <p class="lead">Use this page when ships are active at the table: engagements, tactical superiority, Crosshairs, Pilot Gambits, targeting, system damage, repairs, and multi-ship fights.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="ships.html">Open Ships</a>
+          <a class="button secondary" href="shipbuilding.html">Open Shipbuilding Worksheet</a>
+        </div>
+      </section>
+
+      <section class="content-band">
+        <div class="site-shell section">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Combat</p>
+              <h2>Ship Combat Engagements</h2>
+            </div>
+            <p>Use engagements when more than one ship is active in a battle. The player ship can fully answer one enemy at a time; other ships remain dangerous because they can attack, pursue, lock on, or advance objectives from outside that primary contest.</p>
+          </div>
+
+          <div class="grid two">
+            <article class="card">
+              <span class="tag">Round Flow</span>
+              <h3>Declare Engagement</h3>
+              <p>At the start of each ship round, each full ship marks one opposing ship as its engagement target. The player ship chooses one enemy ship to engage. Enemy full ships may also mark the player ship, another allied ship, or a mission target.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Tactical Contest</span>
+              <h3>Roll For Superiority</h3>
+              <p>When two ships engage each other, their pilots make opposed Speed rolls. The winner gains Tactical Superiority against the loser until the next tactical phase. Crosshairs is the table marker for Tactical Superiority.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Crosshairs</span>
+              <h3>Target-Specific Advantage</h3>
+              <p>Crosshairs applies only to the ship it was gained against. In a battle with several full ships, Crosshairs is never global. Track it as "Waywarden has Crosshairs on the cutter," not "Waywarden has Crosshairs."</p>
+            </article>
+            <article class="card">
+              <span class="tag">Pilot Choice</span>
+              <h3>Use Gambits</h3>
+              <p>A pilot with Tactical Superiority may use available Pilot Gambits against the engaged target. If a Gambit requires the pilot's action, the pilot gives up their normal turn as usual.</p>
+            </article>
+          </div>
+
+          <div class="rule-block">
+            <h3>Multiple Enemy Ships</h3>
+            <p>A full ship can actively engage only one opposing ship at a time. Other hostile ships may still engage it. This is the natural disadvantage of being outnumbered: the crew can directly contest one enemy's position, but cannot fully answer every angle of attack at once.</p>
+            <pre><code>Example:
+The Waywarden engages the boarding cutter.
+The boarding cutter engages The Waywarden.
+The pirate gunship also engages The Waywarden.
+
+The Waywarden and the boarding cutter roll an opposed tactical contest.
+The pirate gunship is not directly contested by The Waywarden this round, but it still acts normally and may pursue its own attack, lock, boarding, or scenario objective.</code></pre>
+          </div>
+
+          <div class="rule-block">
+            <h3>Targets And Systems</h3>
+            <p>A ship attack normally targets a ship's Defense and deals Hull damage on a hit. A ship can target a specific system only when a weapon says it does, when Crosshairs allows a called system shot, when a critical hit trades extra damage for system damage, or when the scenario exposes a system as an objective.</p>
+            <pre><code>Target = the ship being attacked.
+Crosshairs = Tactical Superiority against one specific ship.
+System target = the part of that ship being disabled.</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band">
+        <div class="site-shell section">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Pilot options</p>
+              <h2>Pilot Gambits</h2>
+            </div>
+            <p>Gambits are maneuvers performed by a ship's pilot during the tactical phase. A pilot gives up their normal turn to perform a Gambit unless a specific rule says otherwise. Gambits with a positional requirement require Crosshairs on the target.</p>
+          </div>
+
+          <div class="grid three">
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Maintain</h3>
+              <p>Attempt to preserve tactical superiority. Gain advantage on the next tactical contest.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Ready Fire</h3>
+              <p>Bolster weaponry for a superior attack. Grant advantage to one ship attack roll this round.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Defensive Maneuver</h3>
+              <p>Prepare the ship for an enemy salvo. The ship gains +2 Defense against ship attacks this round.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Displasive Maneuver</h3>
+              <p>Add the pilot's proficiency bonus to the next tactical contest.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Evasive Maneuver</h3>
+              <p>Roll a Speed save against DC 8 + the target's Sensors. On a success, gain advantage on ship combat saving throws this round. On a failure, forfeit the next tactical contest.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Gain Traction</h3>
+              <p>Roll a Speed save against DC 8 + the target's Speed. On a success, enable positional weapons against that target this turn. On a failure, forfeit the next tactical contest.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Push It</h3>
+              <p>Roll a Speed save against DC 8 + the target's Speed. On a success, gain Crosshairs on that target and nullify its positional bonuses. On a failure, forfeit the next tactical contest and the ship's propulsion system suffers Damage, or Major Damage if already Damaged.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Escape</h3>
+              <p>Begin escaping the encounter. The next time this ship gains Crosshairs against the relevant pursuer or obstacle, it may escape the encounter.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Gambit</span>
+              <h3>Ram</h3>
+              <p>Choose a target in position to be rammed. The target makes a Speed save against DC 8 + the attacking ship's Speed. On a failure, the target takes ship damage based on the attacking ship's size, and the attacking ship takes half that damage.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
