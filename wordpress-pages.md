@@ -21,25 +21,18 @@ Create these WordPress pages first:
 - Shipbuilding: use `shipbuilding.html` for the guided creation worksheet if needed.
 - Gear: use `gear.html` for the searchable equipment table.
 
-Suggested menu order:
+Suggested public menu order:
 
 1. Home
 2. The Quiet Ones
 3. The Quiet Ones Rules
 4. The Quiet Ones Turns
 5. Characters
-6. Character Rules
-7. Story
-8. Homebrew Rules
-9. Skill Equivalents
-10. Tool Equivalents
-11. Vehicles and Drones
-12. Equipment Flavor
-13. Resting and Travel
-14. Ships
-15. Ship Rules
-16. Gear
+6. Story
+7. Homebrew Rules
+8. Ships
+9. Gear
 
-Keep Shipbuilding linked from Ships and Ship Rules as a worksheet instead of placing it in the main menu unless the crew actively uses the site to revise vessels.
+Keep detailed rules linked from Homebrew Rules instead of placing every rules page in the public menu. Keep Shipbuilding linked from Ships and Ship Rules as a worksheet unless the crew actively uses the site to revise vessels.
 
 Implementation note: keep the spreadsheets in this folder as the source of truth. Copy completed table sections into WordPress as each data category is cleaned up.
